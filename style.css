@@ -64,7 +64,7 @@ header .banner .banner-left button{
 
 .featurepic{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .featurepic div{
@@ -105,4 +105,24 @@ header .banner .banner-left button{
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+/* service-container */
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 87px 0;
+    background: #2727270D;
+    margin-top: 128px;
+}
+.service-container div{
+    text-align: center;
+}
+.service-container div p{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top:20px;
 }
