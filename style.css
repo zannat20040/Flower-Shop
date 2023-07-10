@@ -1,0 +1,41 @@
+/* Global section */
+*{
+    margin: 0;
+    padding: 0;
+}
+.primefont{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* header section */
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+header .banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 240px 0 240px ;
+}
+header .banner .banner-left h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+header .banner .banner-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 32px 0;
+}
+header .banner .banner-left button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
