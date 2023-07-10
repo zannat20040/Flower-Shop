@@ -7,16 +7,22 @@
     font-family: 'Lato', sans-serif;
 }
 
+.fix-width{
+    width: 1920px;
+    margin: 0 auto;
+}
+
 
 /* header section */
 header{
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 178px;
 }
 header .banner{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 240px 0 240px ;
+    padding: 50px 0 0 0 ;
 }
 header .banner .banner-left h1{
     color: #272727;
@@ -35,7 +41,68 @@ header .banner .banner-left button{
     padding: 20px 43px;
     color: white;
     font-size: 20px;
-    font-weight: 700;
     border: 0;
     cursor: pointer;
+}
+
+
+/* Featured section */
+
+.feature-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-heading p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    width: 594px;
+    line-height: 30px;
+    margin: 24px auto 0 auto;
+}
+
+.featurepic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featurepic div{
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 48px;
+
+}
+.featurepic .div1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.featurepic .div2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.featurepic .div3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featurepic .div2 img{
+    margin:117px 47px 51px 47px;
+    ;
+}
+.featuretxt{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.featuretxt li{
+    list-style: none;
+}
+.featuretxt li a{
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
