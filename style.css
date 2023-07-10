@@ -8,7 +8,7 @@
 }
 
 .fix-width{
-    width: 1920px;
+    width:1440px;;
     margin: 0 auto;
 }
 .primebtn{
@@ -140,4 +140,52 @@ header{
 }
 .offerheading span{
     color: #E55473;
+}
+
+/* form section */
+
+.formsec{
+    margin-top:128px;
+    text-align: center;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 122px 0;
+}
+.formsec form input[type="email"]{
+    width: 700px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+    padding: 0 10px;
+    outline: 0;
+    font-size: 18px;
+    margin-right: 16px;
+}
+
+input::placeholder{
+    font-size: 18px;
+}
+
+/* Footer section */
+
+.footersec{
+    margin-top: 128px;
+    background-color: black;
+    padding: 128px 0;
+    text-align: center;
+}
+.footersec h2{
+    color: white;
+}
+.footersec p{
+    color: white;
+}
+.footersec span{
+    color: #E55473;
+}
+.footersec small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
