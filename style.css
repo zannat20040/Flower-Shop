@@ -11,31 +11,7 @@
     width: 1920px;
     margin: 0 auto;
 }
-
-
-/* header section */
-header{
-    background: rgba(229, 84, 115, 0.10);
-    margin-bottom: 178px;
-}
-header .banner{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 0 0 0 ;
-}
-header .banner .banner-left h1{
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-}
-header .banner .banner-left p{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    line-height: 30px;
-    margin: 32px 0;
-}
-header .banner .banner-left button{
+.primebtn{
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
@@ -43,6 +19,29 @@ header .banner .banner-left button{
     font-size: 20px;
     border: 0;
     cursor: pointer;
+}
+
+/* header section */
+header{
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 178px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 0 0 ;
+}
+.banner .banner-left h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner .banner-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 32px 0;
 }
 
 
@@ -114,7 +113,7 @@ header .banner .banner-left button{
     justify-content: space-around;
     padding: 87px 0;
     background: #2727270D;
-    margin-top: 128px;
+    margin: 128px auto;
 }
 .service-container div{
     text-align: center;
@@ -125,4 +124,18 @@ header .banner .banner-left button{
     font-size: 24px;
     font-weight: 600;
     margin-top:20px;
+}
+
+/* Offer section */
+
+.offer{
+   background-color: #E554730D;
+   text-align: center;
+   padding: 100px 0;
+   margin-bottom: 128px;
+}
+
+.offerheading{
+    font-size: 40px;
+    font-weight: 800;
 }
