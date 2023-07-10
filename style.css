@@ -2,11 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-}
-.primefont{
     font-family: 'Lato', sans-serif;
-}
 
+}
 .fix-width{
     width:1440px;;
     margin: 0 auto;
@@ -26,9 +24,46 @@ header{
     background: rgba(229, 84, 115, 0.10);
     margin-bottom: 178px;
 }
+/* menu section */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+nav .logo h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+nav .logo span{
+    color: #E55473;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav .menu li a{
+    font-size: 24px;
+    color: #E55473;   
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav .menu li:hover a{
+    font-weight: 700;
+    color: black;
+    transition: .5s;
+}
+/* banner section */
 .banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 50px 0 0 0 ;
 }
