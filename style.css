@@ -24,7 +24,7 @@
 
 .displayflex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -109,9 +109,7 @@ nav .menu li:hover a button{
     width: 464px;
     height: 538px;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
+    align-items: end; 
 
 }
 .featurepic .div1{
@@ -129,8 +127,6 @@ nav .menu li:hover a button{
 }
 .featuretxt{
     margin-top: 32px;
-    display:flex;
-    justify-content: space-around;
 }
 .featuretxt li{
     list-style: none;
@@ -146,7 +142,6 @@ nav .menu li:hover a button{
 /* service-container */
 
 .service-container{
-    justify-content: space-around;
     padding: 87px 0;
     background: #2727270D;
     margin: 128px auto;
